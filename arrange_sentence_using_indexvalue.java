@@ -16,7 +16,7 @@ public class Main{
             String ans="";
             for(int j=0;j<temp.length()-1;j++)
             {
-                ans=ans+temp.charAt[j];
+                ans=ans+temp.charAt(j);
                 
             }
             ansstr[num]=ans;
