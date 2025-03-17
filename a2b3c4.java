@@ -1,1 +1,19 @@
-
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    String s="a2b3c4";
+    for(int i=0;i<s.length();i++)
+    {
+          char c=s.charAt(i);
+          int m=(int)c-(int)'0';
+      if(m<9)
+      {
+        for(int j=0;j<m;j++)
+        {
+             System.out.print(s.charAt(i-1));
+        }
+      }
+    }
+}
+}
